@@ -1,0 +1,37 @@
+
+# set timezone
+#  sudo ln -s /usr/share/zoneinfo/EST /etc/localtime
+
+alias lsa='ls -la'
+
+alias gitlog='     git log --pretty=oneline       --graph  --decorate'
+alias gitlogall='  git log --pretty=oneline --all --graph  --decorate'
+alias gitstat='    git log --pretty=oneline --all --stat'
+alias tree='tree -a'
+alias tkdiff='echo hey winsor try "meld"'
+
+alias acroread='evince'
+alias netbeans='/bin/sh /predix/netbeans-8.2/bin/netbeans'
+alias chrome='google-chrome'
+
+#### how to get javadoc and/or source into Eclipse/STS
+alias dojavasrc='mvn dependency:sources'
+alias dojavadoc='mvn dependency:resolve -Dclassifier=javadoc -U'
+#### then in Eclipse/STS - select the project / right-click / maven / "Download JavaDoc" and then "Update Project
+
+
+## shared folders:
+## the shared folders (shared w/ host windows 10) are in /media
+##
+alias totop='cd /predix/Documents/other-projects/proj26_template_adapter_pi_ALLBRANCHES/predix-machine-template-adapter-pi/'
+
+### setting up the seed app
+# npm install
+# bower install
+# sudo -E npm install gulp-cli -g
+# gulp
+#<edit the manifest.yml ...>
+# gulp dist
+# cf push
+
+
