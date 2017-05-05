@@ -1,4 +1,5 @@
 (setq inhibit-startup-screen t)
+(setq js-indent-level 2)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -29,4 +30,6 @@
 ;;(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+
 
