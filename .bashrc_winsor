@@ -23,7 +23,7 @@ alias dojavadoc='mvn dependency:resolve -Dclassifier=javadoc -U'
 ## shared folders:
 ## the shared folders (shared w/ host windows 10) are in /media
 ##
-alias totop='cd /predix/Documents/other-projects/proj26_template_adapter_pi_ALLBRANCHES/predix-machine-template-adapter-pi/'
+alias totop='cd /predix/Documents/other-projects/proj26_mit_hackathon/predix-machine-template-adapter-pi'
 
 ### setting up the seed app
 # npm install

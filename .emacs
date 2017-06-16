@@ -20,6 +20,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (add-to-list 'load-path "~/.emacs.d/lisp/web-mode/")
 
+
 ;; web mode
 (require 'web-mode)
 ;;(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
@@ -30,6 +31,18 @@
 ;;(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+
+
+;; no tabs
+(setq-default indent-tabs-mode nil)
+
+
+;;; clean auto-indent mode
+;(add-to-list 'load-path "~/.emacs.d/lisp/clean-aindent-mode/")
+;(require 'clean-aindent-mode)
+;(set 'clean-aindent-is-simple-indent t)
+;(define-key global-map (kbd "RET") 'newline-and-indent)
 
 
 
